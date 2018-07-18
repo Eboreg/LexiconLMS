@@ -210,6 +210,10 @@
     <Compile Include="Migrations\201807181232010_AddedNamesForUser.Designer.cs">
       <DependentUpon>201807181232010_AddedNamesForUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807181236380_roles added.cs" />
+    <Compile Include="Migrations\201807181236380_roles added.Designer.cs">
+      <DependentUpon>201807181236380_roles added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
@@ -300,6 +304,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807181232010_AddedNamesForUser.resx">
       <DependentUpon>201807181232010_AddedNamesForUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807181236380_roles added.resx">
+      <DependentUpon>201807181236380_roles added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
